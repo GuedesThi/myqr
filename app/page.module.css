@@ -1,0 +1,15 @@
+.page {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(43, 43, 43);
+}
+
+.header {
+  display: flex;
+  width: 100vw;
+  padding: 1rem 1.5rem;
+}
+
+.fonte {
+  color: green;
+}
