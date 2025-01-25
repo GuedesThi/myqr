@@ -20,7 +20,13 @@ export default function RootLayout({
       <body>
         <header className={styles.header}>
           <h1 className={`${manrope500.className} ${styles.fonte}`}>MyQR</h1>
-          <Image src={icon} width={50} height={50} alt="Ícone de um QR Code" />
+          <Image
+            src={icon}
+            width={40}
+            height={40}
+            className={styles.icon}
+            alt="Ícone de um QR Code"
+          />
         </header>
         {children}
       </body>

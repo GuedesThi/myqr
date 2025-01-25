@@ -1,15 +1,43 @@
 .inputContainer {
-  width: auto;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .input {
   width: 18rem;
   padding: 1rem 2rem 1rem 1rem;
-  border: 1px solid rgb(48, 48, 48);
+  border: 1px solid rgb(143, 140, 140);
   border-radius: 10px;
 }
 
-.input:focus {
-  border: 2px solid black;
+.status {
+  color: rgb(77, 124, 255);
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.downloadButton {
+  padding: 1rem 1.2rem;
+  border-radius: 8px;
+  background-color: rgb(6, 97, 6);
+  border-style: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.downloadButton:hover {
+  transform: scale(1.1);
 }
